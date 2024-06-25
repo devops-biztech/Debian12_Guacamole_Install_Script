@@ -2,7 +2,7 @@
 #SET THE VERSION TO THE ONE YOU WANT. 1.5.5 IS CURRENT AS OF JUN 2024
 VER=1.5.5
 #guacamole user password for DB
-PASSWORD=Apassword5
+PASSWORD=RedRobin123
 sed -i '/^deb cdrom:/s/^/#/' /etc/apt/sources.list
 apt-get update
 apt-get install -y build-essential libcairo2-dev libjpeg62-turbo-dev libpng-dev	libtool-bin uuid-dev libossp-uuid-dev libavcodec-dev libavformat-dev libavutil-dev libswscale-dev freerdp2-dev libpango1.0-dev libssh2-1-dev libvncserver-dev libtelnet-dev libwebsockets-dev libssl-dev libvorbis-dev libwebp-dev libpulse-dev sudo vim postgresql postgresql-contrib
